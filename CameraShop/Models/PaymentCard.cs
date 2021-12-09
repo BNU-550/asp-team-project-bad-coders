@@ -1,9 +1,13 @@
-﻿namespace CameraShop.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CameraShop.Models
 {
     public class PaymentCard
     {
 
         public int CardID { get; set; }
+        
+        [Required, StringLength(20)]
         public string CardName { get; set; }
 
         public int ExpiryMonth { get; set; }

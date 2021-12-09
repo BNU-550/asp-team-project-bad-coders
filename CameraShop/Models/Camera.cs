@@ -25,7 +25,7 @@ namespace CameraShop.Models
         public string Image { get; set; }
 
         public string VideoUrl { get; set; }
-
+        [Required]
         public decimal CurrentPrice { get; set; }
         
         public int CarouselNumber { get; set; }
