@@ -10,9 +10,15 @@ namespace CameraShop.Models
         [Required, StringLength(20), Display(Name ="First Name")]
         public string FirstName { get; set; }
         
+        [Required, StringLength(20), Display(Name ="Last Name")]
         public string LastName { get; set; }
-        public string Email { get; set; }  
+
+        [Required, StringLength(255),]
+        public string Email { get; set; } 
+        
+        [Required,StringLength(20)]
         public string PhoneNumber { get; set; }
+
         //Navigation Property
         public virtual Address Address { get; set; }
 
