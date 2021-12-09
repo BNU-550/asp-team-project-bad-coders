@@ -17,7 +17,7 @@ namespace CameraShop.Models
         public string CameraType { get; set; }
 
         [Required,StringLength(500)]
-        public string summary { get; set; }
+        public string Summary { get; set; }
 
         [Required,StringLength(1000)]
         public string Description { get; set; }
