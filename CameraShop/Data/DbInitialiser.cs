@@ -14,6 +14,8 @@ namespace CameraShop.Data
         {
             context.Database.EnsureCreated();
             AddAddresses(context);
+            AddPaymentCards(context);
+            AddCustomers(context);
         }  
 
         public static void AddAddresses(ApplicationDbContext context)
@@ -28,69 +30,69 @@ namespace CameraShop.Data
                 {
                 new Address()
                 {
-                    AddressId= 1,
+                    
                     HouseNumber= "1",
                     Postcode= "PE12 EPG"
 
                 },
                 new Address()
                 {
-                    AddressId = 2,
+                    
                     HouseNumber= "122",
                     Postcode= "AC1 3AB"
 
                 },
                 new Address()
                 {
-                    AddressId=3,
+                    
                     HouseNumber= "16",
                     Postcode= "EV86 6RE"
                 },
                 new Address()
                 {
-                    AddressId=4,
+                    
                     HouseNumber= "22",
                     Postcode= "NQ98 2TY"
 
                 },
                 new Address()
                 {
-                    AddressId= 5,
+                    
                     HouseNumber= "56",
                     Postcode= "MH46 9JG"
 
                 },
                 new Address()
                 {
-                    AddressId=6,
+                    
                     HouseNumber= "234",
                     Postcode= "SA74 6NE"
 
                 },
                 new Address()
                 {
-                    AddressId=7,
+                    
                     HouseNumber= "65",
                     Postcode= "YU76 2UK"
 
                 },
                 new Address()
                 {
-                    AddressId=8,
+                    
                     HouseNumber= "18",
                     Postcode= "AM17 8KM"
 
                 },
                 new Address()
                 {
-                    AddressId=9,
+                    
                     HouseNumber= "82",
                     Postcode= "KR19 AM1"
 
                 },
                 new Address()
                 {
-                    AddressId=10,
+                    
                     HouseNumber= "36",
                     Postcode= "G73 98N"
 
@@ -101,7 +103,7 @@ namespace CameraShop.Data
                 {
                     context.Addresses.Add(a);
                 }
-                //context.SaveChanges();
+                context.SaveChanges();
         }
 
         public static void AddPaymentCards(ApplicationDbContext context)
@@ -116,7 +118,7 @@ namespace CameraShop.Data
             {
                 new PaymentCard()
                 {
-                    CardID= 8108109342280184,
+                    PaymentCardID= 8108109342280184,
                     CardName= "B. Johnson",
                     ExpiryMonth= 12,
                     ExpiryYear= 23,
@@ -124,7 +126,7 @@ namespace CameraShop.Data
                 },
                 new PaymentCard()
                 {
-                    CardID = 7369204820760494,
+                    PaymentCardID = 7369204820760494,
                     CardName= "J. Bond",
                     ExpiryMonth= 07,
                     ExpiryYear= 24,
@@ -132,7 +134,7 @@ namespace CameraShop.Data
                 },
                 new PaymentCard()
                 {
-                    CardID= 4528898728967346,
+                    PaymentCardID= 4528898728967346,
                     CardName= "J Johnson",
                     ExpiryMonth= 01,
                     ExpiryYear= 22,
@@ -140,7 +142,7 @@ namespace CameraShop.Data
                 },
                 new PaymentCard()
                 {
-                    CardID= 8006414157735322,
+                    PaymentCardID= 8006414157735322,
                     CardName= "T Jones",
                     ExpiryMonth= 11,
                     ExpiryYear= 22,
@@ -148,7 +150,7 @@ namespace CameraShop.Data
                 },
                 new PaymentCard()
                 {
-                    CardID= 6200039714689144,
+                    PaymentCardID= 6200039714689144,
                     CardName= "P Peterson",
                     ExpiryMonth= 05,
                     ExpiryYear= 24,
@@ -156,7 +158,7 @@ namespace CameraShop.Data
                 },
                 new PaymentCard()
                 {
-                    CardID= 2975690378139100,
+                    PaymentCardID= 2975690378139100,
                     CardName= "S King",
                     ExpiryMonth= 07,
                     ExpiryYear= 22,
@@ -164,7 +166,7 @@ namespace CameraShop.Data
                 },
                 new PaymentCard()
                 {
-                    CardID= 2015616913792017,
+                    PaymentCardID= 2015616913792017,
                     CardName= "L Evans",
                     ExpiryMonth= 12,
                     ExpiryYear= 23,
@@ -172,7 +174,7 @@ namespace CameraShop.Data
                 },
                 new PaymentCard()
                 {
-                    CardID = 1700783439618400,
+                    PaymentCardID = 1700783439618400,
                     CardName= "J Jackson",
                     ExpiryMonth= 09,
                     ExpiryYear= 22,
@@ -180,7 +182,7 @@ namespace CameraShop.Data
                 },
                 new PaymentCard()
                 {
-                    CardID= 5952554349752715,
+                    PaymentCardID= 5952554349752715,
                     CardName= "T Cruise",
                     ExpiryMonth= 03,
                     ExpiryYear= 23,
@@ -188,7 +190,7 @@ namespace CameraShop.Data
                 },
                 new PaymentCard()
                 {
-                    CardID= 8804239747397707,
+                    PaymentCardID= 8804239747397707,
                     CardName= "T Thompson",
                     ExpiryMonth= 12,
                     ExpiryYear= 22,
@@ -201,7 +203,7 @@ namespace CameraShop.Data
             {
                 context.PaymentCards.Add(p);
             }
-            //context.SaveChanges();
+            context.SaveChanges();
         }
 
         public static void AddCustomers(ApplicationDbContext context)
@@ -216,7 +218,8 @@ namespace CameraShop.Data
             {
                 new Customer()
                 {
-                    CustomerId= 101,
+                    AddressID= 1,
+                    PaymentCardID= 8108109342280184,
                     FirstName= "Boris",
                     LastName= "Johnson",
                     Email= "Bojo@gmail.com",
@@ -224,7 +227,8 @@ namespace CameraShop.Data
                 },
                 new Customer()
                 {
-                    CustomerId= 102,
+                    AddressID= 2,
+                    PaymentCardID= 7369204820760494,
                     FirstName= "James",
                     LastName= "Bond",
                     Email= "Jabo@gmail.com",
@@ -232,7 +236,8 @@ namespace CameraShop.Data
                 },
                 new Customer()
                 {
-                    CustomerId= 103,
+                    AddressID= 3,
+                    PaymentCardID= 4528898728967346,
                     FirstName= "John",
                     LastName= "Johnson",
                     Email= "Jojo@gmail.com",
@@ -240,7 +245,8 @@ namespace CameraShop.Data
                 },
                 new Customer()
                 {
-                    CustomerId= 104,
+                    AddressID= 4,
+                    PaymentCardID= 8006414157735322,
                     FirstName= "Tom",
                     LastName= "Jones",
                     Email= "Tojo@gmail.com",
@@ -248,7 +254,8 @@ namespace CameraShop.Data
                 },
                 new Customer()
                 {
-                    CustomerId= 105,
+                    AddressID= 5,
+                    PaymentCardID= 6200039714689144,
                     FirstName= "Peter",
                     LastName= "Peterson",
                     Email= "Pepe@gmail.com",
@@ -256,7 +263,8 @@ namespace CameraShop.Data
                 },
                 new Customer()
                 {
-                    CustomerId= 106,
+                    AddressID= 6,
+                    PaymentCardID= 2975690378139100,
                     FirstName= "Stephan",
                     LastName= "King",
                     Email= "Steking@gmail.com",
@@ -264,7 +272,8 @@ namespace CameraShop.Data
                 },
                 new Customer()
                 {
-                    CustomerId= 107,
+                    AddressID= 7,
+                    PaymentCardID= 2015616913792017,
                     FirstName= "Lee",
                     LastName= "Evans",
                     Email= "Leev@gmail.com",
@@ -272,7 +281,8 @@ namespace CameraShop.Data
                 },
                 new Customer()
                 {
-                    CustomerId= 108,
+                    AddressID= 8,
+                    PaymentCardID= 1700783439618400,
                     FirstName= "Jack",
                     LastName= "Jackson",
                     Email= "Jaja@gmail.com",
@@ -280,7 +290,8 @@ namespace CameraShop.Data
                 },
                 new Customer()
                 {
-                    CustomerId= 109,
+                    AddressID= 9,
+                    PaymentCardID= 5952554349752715,
                     FirstName= "Tom",
                     LastName= "Cruise",
                     Email= "Tocru@gmail.com",
@@ -288,7 +299,8 @@ namespace CameraShop.Data
                 },
                 new Customer()
                 {
-                    CustomerId= 110,
+                    AddressID= 10,
+                    PaymentCardID= 8804239747397707,
                     FirstName= "Tony",
                     LastName= "Thompson",
                     Email= "ToThom@gmail.com",
@@ -301,7 +313,7 @@ namespace CameraShop.Data
             {
                 context.Customers.Add(c);
             }
-            //context.SaveChanges();
+            context.SaveChanges();
         }
     }
 }

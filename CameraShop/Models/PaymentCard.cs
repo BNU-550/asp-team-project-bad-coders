@@ -1,11 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CameraShop.Models
 {
     public class PaymentCard
     {
-
-        public long CardID { get; set; }
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public long PaymentCardID { get; set; }
         
         [Required, StringLength(20)]
         public string CardName { get; set; }

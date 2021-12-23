@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CameraShop.Models
 {
@@ -6,6 +7,8 @@ namespace CameraShop.Models
     {
         public int CustomerId { get; set; }
         public int AddressID { get; set; }
+
+        public long PaymentCardID { get; set; }
 
         [Required, StringLength(20), Display(Name ="First Name")]
         public string FirstName { get; set; }
@@ -21,6 +24,7 @@ namespace CameraShop.Models
 
         //Navigation Property
         public virtual Address Address { get; set; }
+        public virtual PaymentCard PaymentCard { get; set; }
 
     }
 }
