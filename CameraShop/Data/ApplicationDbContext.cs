@@ -17,6 +17,7 @@ namespace CameraShop.Data
         public DbSet<Address> Addresses { get; set; }
         public DbSet<PaymentCard> PaymentCards { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Camera> Cameras { get; set; }
 
     }
 }

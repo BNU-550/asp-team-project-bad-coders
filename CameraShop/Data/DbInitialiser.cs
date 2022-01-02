@@ -16,7 +16,188 @@ namespace CameraShop.Data
             AddAddresses(context);
             AddPaymentCards(context);
             AddCustomers(context);
-        }  
+            AddCameras(context);
+        }
+
+        public static void AddCameras(ApplicationDbContext context)
+        {
+            // Look for any students.
+            if (context.Cameras.Any())
+            {
+                return;   // DB has been seeded
+            }
+
+            var cameras = new Camera[]
+            {
+                new Camera()
+                {
+
+                    CameraId = 1,
+                    Make = "PE12 EPG",
+                    Model = "12",
+                    CameraType = "1",
+                    Summary = "1",
+                    Description = "1",
+                    Image = "1",
+                    VideoUrl = "1",
+                    CurrentPrice = 1,
+                    CarouselNumber = 1,
+                    Discount = 1
+                },
+
+                new Camera()
+                {
+
+                    CameraId = 2,
+                    Make = "PE12 EPG",
+                    Model = "12",
+                    CameraType = "1",
+                    Summary = "1",
+                    Description = "1",
+                    Image = "1",
+                    VideoUrl = "1",
+                    CurrentPrice = 1,
+                    CarouselNumber = 1,
+                    Discount = 1
+                },
+
+                new Camera()
+                {
+
+                    CameraId = 3,
+                    Make = "PE12 EPG",
+                    Model = "12",
+                    CameraType = "1",
+                    Summary = "1",
+                    Description = "1",
+                    Image = "1",
+                    VideoUrl = "1",
+                    CurrentPrice = 1,
+                    CarouselNumber = 1,
+                    Discount = 1
+                },
+
+                new Camera()
+                {
+
+                    CameraId = 4,
+                    Make = "PE12 EPG",
+                    Model = "12",
+                    CameraType = "1",
+                    Summary = "1",
+                    Description = "1",
+                    Image = "1",
+                    VideoUrl = "1",
+                    CurrentPrice = 1,
+                    CarouselNumber = 1,
+                    Discount = 1
+                },
+
+                new Camera()
+                {
+
+                    CameraId = 5,
+                    Make = "PE12 EPG",
+                    Model = "12",
+                    CameraType = "1",
+                    Summary = "1",
+                    Description = "1",
+                    Image = "1",
+                    VideoUrl = "1",
+                    CurrentPrice = 1,
+                    CarouselNumber = 1,
+                    Discount = 1
+                },
+
+                new Camera()
+                {
+
+                    CameraId = 6,
+                    Make = "PE12 EPG",
+                    Model = "12",
+                    CameraType = "1",
+                    Summary = "1",
+                    Description = "1",
+                    Image = "1",
+                    VideoUrl = "1",
+                    CurrentPrice = 1,
+                    CarouselNumber = 1,
+                    Discount = 1
+                },
+
+                new Camera()
+                {
+
+                    CameraId = 7,
+                    Make = "PE12 EPG",
+                    Model = "12",
+                    CameraType = "1",
+                    Summary = "1",
+                    Description = "1",
+                    Image = "1",
+                    VideoUrl = "1",
+                    CurrentPrice = 1,
+                    CarouselNumber = 1,
+                    Discount = 1
+                },
+
+                new Camera()
+                {
+
+                    CameraId = 8,
+                    Make = "PE12 EPG",
+                    Model = "12",
+                    CameraType = "1",
+                    Summary = "1",
+                    Description = "1",
+                    Image = "1",
+                    VideoUrl = "1",
+                    CurrentPrice = 1,
+                    CarouselNumber = 1,
+                    Discount = 1
+                },
+
+                new Camera()
+                {
+
+                    CameraId = 9,
+                    Make = "PE12 EPG",
+                    Model = "12",
+                    CameraType = "1",
+                    Summary = "1",
+                    Description = "1",
+                    Image = "1",
+                    VideoUrl = "1",
+                    CurrentPrice = 1,
+                    CarouselNumber = 1,
+                    Discount = 1
+                },
+
+                new Camera()
+                {
+
+                    CameraId = 10,
+                    Make = "PE12 EPG",
+                    Model = "12",
+                    CameraType = "1",
+                    Summary = "1",
+                    Description = "1",
+                    Image = "1",
+                    VideoUrl = "1",
+                    CurrentPrice = 1,
+                    CarouselNumber = 1,
+                    Discount = 1
+                },
+            };
+
+            foreach (Camera c in cameras)
+            {
+                context.Cameras.Add(c);
+            }
+            context.SaveChanges();
+        }
+
+
 
         public static void AddAddresses(ApplicationDbContext context)
         {
