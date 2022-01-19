@@ -33,160 +33,160 @@ namespace CameraShop.Data
                 {
 
                     CameraId = 1,
-                    Make = "PE12 EPG",
-                    Model = "12",
-                    CameraType = "1",
-                    Summary = "1",
-                    Description = "1",
+                    Make = "Sony",
+                    Model = "a7 IV Mirrorless Camera Body",
+                    CameraType = "Mirrorless",
+                    Summary = "New 33MP Exmor R back-illuminated sensor, Bionz XR processing power, New 3 inch variangle touchscreen, Shoot 4K 60p video",
+                    Description = "The Sony a7 IV full-frame mirrorless camera merges outstanding 33 megapixel image quality, 4K 60p video recording, refined handling and fast sharing abilities making it the perfect hybrid camera. With top of the line real-time autofocus in photo and video, the a7 IV gives the power of Sony’s best technology into the hands of creators and professionals:",
                     Image = "1",
                     VideoUrl = "1",
-                    CurrentPrice = 1,
-                    CarouselNumber = 1,
-                    Discount = 1
+                    CurrentPrice = 2399,
+                    CarouselNumber = 8,
+                    Discount = 30
                 },
 
                 new Camera()
                 {
 
                     CameraId = 2,
-                    Make = "PE12 EPG",
-                    Model = "12",
-                    CameraType = "1",
-                    Summary = "1",
-                    Description = "1",
+                    Make = "Fujifilm",
+                    Model = "Fujifilm X-T30 II",
+                    CameraType = "Mirrorless",
+                    Summary = "26.1MP X-Trans CMOS 4 sensor,High speed X-Processor 4 processing engine,4K/30P and full-HD/240P video, High definition 1.62-million-dot LCD monitor,Upgraded AUTO shooting mode",
+                    Description = "The Fujifilm X-T30 II is a compact and lightweight (only 378g) mirrorless camera body featuring a 26.1MP X-Trans CMOS 4 sensor and high-speed X-Processor 4 image processing engine for super-fast AF performance and image quality equivalent to the X-T4. The X-T30 II upgrades from the previous model (X-T30) with a new high-resolution 1.62-million-dot LCD monitor and updated AUTO shooting mode.",
                     Image = "1",
                     VideoUrl = "1",
-                    CurrentPrice = 1,
-                    CarouselNumber = 1,
-                    Discount = 1
+                    CurrentPrice = 769,
+                    CarouselNumber = 3,
+                    Discount = 15
                 },
 
                 new Camera()
                 {
 
                     CameraId = 3,
-                    Make = "PE12 EPG",
-                    Model = "12",
-                    CameraType = "1",
-                    Summary = "1",
-                    Description = "1",
+                    Make = "Nikon",
+                    Model = "Nikon Coolpix P1000",
+                    CameraType = "Compact",
+                    Summary = "125x optical zoom, 16 megapixel CMOS sensor, 4k video, vari-angle TFT LCD, Wifi and Bluetooth",
+                    Description = "The Nikon P1000 features an incredible 125x optical zoom which is a focal length range of 24-3000mm (35mm equivalent). You can zoom even further with 250x Dynamic Fine digital zoom, which gives you an equivalent focal length of 6000mm. To help keep your images sharp using this extreme zoom range, the P1000 includes Nikon's Dual Detect Optical Vibration Reduction, which provides 5 stops of optical image stabilisation.",
                     Image = "1",
                     VideoUrl = "1",
-                    CurrentPrice = 1,
-                    CarouselNumber = 1,
-                    Discount = 1
+                    CurrentPrice = 899,
+                    CarouselNumber = 10,
+                    Discount = 30
                 },
 
                 new Camera()
                 {
 
                     CameraId = 4,
-                    Make = "PE12 EPG",
-                    Model = "12",
-                    CameraType = "1",
-                    Summary = "1",
-                    Description = "1",
+                    Make = "Canon",
+                    Model = "Canon EOS 90D",
+                    CameraType = "DSLR",
+                    Summary = "32.5 megapixel APS-C CMOS sensor,4K video and Dual Pixel CMOS AF,Intelligent optical viewfinder,45 cross type AF points with multi-controller,Vari-Angle touchscreen",
+                    Description = "The Canon EOS 90D is a compact & stylish DSLR featuring a high-resolution 32.5MP APS-C CMOS sensor for superb image quality This updated sensor design gives you enhanced image clarity and dynamic range, along with sensitivity to ISO 25600 and low noise. Combined with the DIGIC 8 image processor, the sensor powers UHD 4K30p and Full HD 120p video, as well as supporting continuous still image shooting rates up to 10fps. The 45-point all cross-type AF system gives fast AF performance in a range of lighting conditions for tracking moving subjects and working in low light. When shooting in Live View mode, or when capturing video, Canon’s Dual Pixel CMOS AF system delivers superb sharpness and wide-area coverage, plus low light performance. A vari-angle touchscreen LCD is included for intuitive control along with an optical pentaprism viewfinder. Built-in Wi-Fi and Bluetooth connectivity lets you pair your devices with the 90D and easily share your images and movies online.",
                     Image = "1",
                     VideoUrl = "1",
-                    CurrentPrice = 1,
-                    CarouselNumber = 1,
-                    Discount = 1
+                    CurrentPrice = 1629,
+                    CarouselNumber = 9,
+                    Discount = 25
                 },
 
                 new Camera()
                 {
 
                     CameraId = 5,
-                    Make = "PE12 EPG",
-                    Model = "12",
-                    CameraType = "1",
-                    Summary = "1",
-                    Description = "1",
+                    Make = "Nikon",
+                    Model = "D5600",
+                    CameraType = "DSLR",
+                    Summary = "24.2 megapixels,Lightweight and tough construction,Vari-angle touchscreen,Low-pass filter removed,SnapBridge connectivity",
+                    Description = "The Nikon D5600 is a tough and versatile DSLR camera and a great upgrade or investment for beginner photographers.Featuring a 24.2-megapixel DX sensor and fast 39-point autofocus the D5600 is suitable for a range of photographic pursuits such as landscape photography, portraits, wildlife photography and action. The D5600 can be used to produce detailed high-resolution stills even in challenging lighting conditions, thanks to its native ISO sensitivity range of ISO 100-25600",
                     Image = "1",
                     VideoUrl = "1",
-                    CurrentPrice = 1,
-                    CarouselNumber = 1,
-                    Discount = 1
+                    CurrentPrice = 619,
+                    CarouselNumber = 5,
+                    Discount = 10
                 },
 
                 new Camera()
                 {
 
                     CameraId = 6,
-                    Make = "PE12 EPG",
-                    Model = "12",
-                    CameraType = "1",
-                    Summary = "1",
-                    Description = "1",
+                    Make = "Sony",
+                    Model = "A6000",
+                    CameraType = "Mirrorless",
+                    Summary = "Great value mirrorless camera,24.3-megapixel APS-C sensor, World's fastest AF,Wi-Fi/NFC functions, OLED Tru-Finder",
+                    Description = "The Sony Alpha a6000 is a great entry-level camera to get you started in creative photography. Features include a 24.3-megapixel sensor with the world's fastest AF (0.06 sec) for cameras of this class. Also included is super-fast 11 fps shooting, DSLR-style operation, a high resolution OLED Tru-Finder and Wi-Fi/NFC connectivity. We love this camera because it gives you creative control in a compact sized body.",
                     Image = "1",
                     VideoUrl = "1",
-                    CurrentPrice = 1,
-                    CarouselNumber = 1,
-                    Discount = 1
+                    CurrentPrice = 499,
+                    CarouselNumber = 4,
+                    Discount = 40
                 },
 
                 new Camera()
                 {
 
                     CameraId = 7,
-                    Make = "PE12 EPG",
-                    Model = "12",
-                    CameraType = "1",
-                    Summary = "1",
-                    Description = "1",
+                    Make = "Nikon",
+                    Model = "D780",
+                    CameraType = "DSLR",
+                    Summary = "24.5 MP full frame CMOS sensor,Expeed 6 image processor,Up to 12 fps in Silent Live View Photography mode,51-point Phase-Detection AF system,Full frame 4K movies",
+                    Description = "The Nikon D780 is a high-performance full-frame DSLR aimed at both creative photographers and videographers. The tough D780 features a 24.5 MP full-frame CMOS sensor, EXPEED 6 image processor and the same 180K-pixel RGB sensor & Advanced Scene Recognition system as the D850. Also featured is a fast, dedicated Hybrid-AF system for Live View shooting and a fast, powerful 51-point Phase-Detection AF system for viewfinder shooting. When shooting in Live View, photographers and movie makers benefit from the same AF system as found in the Nikon Z 6 mirrorless camera. Users can lock onto expressions with Eye-Detection AF and take advantage of low-light AF, which powers reliable subject acquisition all the way down to -6 EV. Photographers shooting through the viewfinder benefit from flagship tracking performance, and quick switching between advanced AF modes.",
                     Image = "1",
                     VideoUrl = "1",
-                    CurrentPrice = 1,
-                    CarouselNumber = 1,
-                    Discount = 1
+                    CurrentPrice = 1999,
+                    CarouselNumber = 6,
+                    Discount = 40
                 },
 
                 new Camera()
                 {
 
                     CameraId = 8,
-                    Make = "PE12 EPG",
-                    Model = "12",
-                    CameraType = "1",
-                    Summary = "1",
-                    Description = "1",
+                    Make = "Fujifilm",
+                    Model = "X-T200",
+                    CameraType = "Mirrorless",
+                    Summary = "24.2MP APS-C CMOS image sensor,4K 30p video recording,Large 3.5-inch vari-angle LCD touchscreen,Continuous shooting up to 8fps,Electronic Stabilisation and HDR Video modes",
+                    Description = "The Fujifilm X-T200 in dark silver is a stylish, compact & lightweight (only 370g) mirrorless camera aimed at photographers who want to create high-quality videos and images easily. The X-T200 features a new APS-C 24.2 Megapixel CMOS sensor and processor giving high image quality & super-fast performance. Also featured is a bright, large widescreen LCD vari-angle touchscreen, a newly designed EVF, quick face detection AF and 4K video recording with a new electronic stabilization mode to give you smooth, shake-free movies.",
                     Image = "1",
                     VideoUrl = "1",
-                    CurrentPrice = 1,
+                    CurrentPrice = 749,
                     CarouselNumber = 1,
-                    Discount = 1
+                    Discount = 15
                 },
 
                 new Camera()
                 {
 
                     CameraId = 9,
-                    Make = "PE12 EPG",
-                    Model = "12",
-                    CameraType = "1",
-                    Summary = "1",
-                    Description = "1",
+                    Make = "Sony",
+                    Model = "a7R IV",
+                    CameraType = "Mirrorless",
+                    Summary = "24.2MP APS-C CMOS image sensor, 4K 30p video recording, Large 3.5-inch vari-angle LCD touchscreen,Continuous shooting up to 8fps,Electronic Stabilisation and HDR Video modes",
+                    Description = "The Fujifilm X-T200 in dark silver is a stylish, compact & lightweight (only 370g) mirrorless camera aimed at photographers who want to create high-quality videos and images easily. The X-T200 features a new APS-C 24.2 Megapixel CMOS sensor and processor giving high image quality & super-fast performance. Also featured is a bright, large widescreen LCD vari-angle touchscreen, a newly designed EVF, quick face detection AF and 4K video recording with a new electronic stabilization mode to give you smooth, shake-free movies.",
                     Image = "1",
                     VideoUrl = "1",
-                    CurrentPrice = 1,
-                    CarouselNumber = 1,
-                    Discount = 1
+                    CurrentPrice = 3199,
+                    CarouselNumber = 2,
+                    Discount = 25
                 },
 
                 new Camera()
                 {
 
                     CameraId = 10,
-                    Make = "PE12 EPG",
-                    Model = "12",
-                    CameraType = "1",
-                    Summary = "1",
-                    Description = "1",
+                    Make = "Nikon",
+                    Model = "Coolpix P950",
+                    CameraType = "Compact",
+                    Summary = "83x optical zoom, f/2.8 bright nikkor lens, 4k movies, 16 megapixel backlit CMOS sensor, Full-size Hot Shoe",
+                    Description = "The Coolpix P950 is a versatile superzoom bridge camera offering a mix of still photography and video shooting capabilities. At the heart of the P950 is back-illuminated 16 megapixel CMOS sensor and EXPEED Image Processor which combine to produce high quality images and super-fast shooting, even in low light. You can also record 4K video at up to 30 fps, Full HD video at up to 60 fps and in-camera time-lapse recording. The star of the show however, is the massive 83x optical zoom which covers an amazing 24-2000mm equivalent focal length range. This huge reach is supported by Dual Detect Vibration Reduction, which compensates for the effects of camera shake in order to realize sharper results when shooting handheld. The P950 also features a bright 2.36m-dot OLED Electronic Viewfinder, a large 3.2-inch 921k-dot vari-angle touchscreen monitor and has built-in Wi-Fi and Bluetooth for wireless sharing and remote camera control.",
                     Image = "1",
                     VideoUrl = "1",
-                    CurrentPrice = 1,
-                    CarouselNumber = 1,
-                    Discount = 1
+                    CurrentPrice = 799,
+                    CarouselNumber = 7,
+                    Discount = 0
                 },
             };
 
