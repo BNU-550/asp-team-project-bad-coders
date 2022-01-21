@@ -12,10 +12,10 @@ namespace CameraShop.Data
         /// <param name="context"></param>
         public static void Initialise(ApplicationDbContext context)
         {
-            context.Database.EnsureCreated();
-            AddAddresses(context);
-            AddPaymentCards(context);
-            AddCustomers(context);
+            //context.Database.EnsureCreated();
+            //AddAddresses(context);
+            //AddPaymentCards(context);
+            //AddCustomers(context);
             AddCameras(context);
         }
 
@@ -32,7 +32,7 @@ namespace CameraShop.Data
                 new Camera()
                 {
 
-                    CameraId = 1,
+                   
                     Make = "Sony",
                     Model = "a7 IV Mirrorless Camera Body",
                     CameraType = "Mirrorless",
@@ -48,7 +48,7 @@ namespace CameraShop.Data
                 new Camera()
                 {
 
-                    CameraId = 2,
+                    
                     Make = "Fujifilm",
                     Model = "Fujifilm X-T30 II",
                     CameraType = "Mirrorless",
@@ -64,7 +64,7 @@ namespace CameraShop.Data
                 new Camera()
                 {
 
-                    CameraId = 3,
+                    
                     Make = "Nikon",
                     Model = "Nikon Coolpix P1000",
                     CameraType = "Compact",
@@ -80,7 +80,7 @@ namespace CameraShop.Data
                 new Camera()
                 {
 
-                    CameraId = 4,
+                    
                     Make = "Canon",
                     Model = "Canon EOS 90D",
                     CameraType = "DSLR",
@@ -96,7 +96,7 @@ namespace CameraShop.Data
                 new Camera()
                 {
 
-                    CameraId = 5,
+                    
                     Make = "Nikon",
                     Model = "D5600",
                     CameraType = "DSLR",
@@ -112,7 +112,7 @@ namespace CameraShop.Data
                 new Camera()
                 {
 
-                    CameraId = 6,
+                    
                     Make = "Sony",
                     Model = "A6000",
                     CameraType = "Mirrorless",
@@ -128,7 +128,7 @@ namespace CameraShop.Data
                 new Camera()
                 {
 
-                    CameraId = 7,
+                    
                     Make = "Nikon",
                     Model = "D780",
                     CameraType = "DSLR",
@@ -144,7 +144,7 @@ namespace CameraShop.Data
                 new Camera()
                 {
 
-                    CameraId = 8,
+                    
                     Make = "Fujifilm",
                     Model = "X-T200",
                     CameraType = "Mirrorless",
@@ -160,7 +160,7 @@ namespace CameraShop.Data
                 new Camera()
                 {
 
-                    CameraId = 9,
+                    
                     Make = "Sony",
                     Model = "a7R IV",
                     CameraType = "Mirrorless",
@@ -176,7 +176,7 @@ namespace CameraShop.Data
                 new Camera()
                 {
 
-                    CameraId = 10,
+                   
                     Make = "Nikon",
                     Model = "Coolpix P950",
                     CameraType = "Compact",

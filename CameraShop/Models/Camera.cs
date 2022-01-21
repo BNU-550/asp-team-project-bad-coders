@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CameraShop.Models
 {
@@ -25,14 +25,15 @@ namespace CameraShop.Models
         public string Image { get; set; }
 
         public string VideoUrl { get; set; }
-        [Required]
+        [Required, DataType (DataType.Currency)]
+        [Column(TypeName ="Money")]
         public decimal CurrentPrice { get; set; }
         
         public int CarouselNumber { get; set; }
 
         public int Discount { get; set; }
 
-        public virtual Review Review { get; set; }
+        //public virtual Review Review { get; set; }
 
 
         
